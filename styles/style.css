@@ -54,13 +54,14 @@
   line-height: 76px;
   font-weight: 500;
   margin-top: 128px;
-  margin-bottom: 32px;
+
 }
 
 .header__description {
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 32px;
 }
 
 .header__image {
