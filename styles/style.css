@@ -23,7 +23,7 @@
   display: flex;
   justify-content:space-between;
   flex-direction: row;
-
+  align-items:center;
 }
 
 .nav__logo {
@@ -34,6 +34,7 @@
 .nav__links {
   padding: 0;
   display:flex;
+  align-items: center;
   justify-content: space-between;
   flex-direction: row;
   margin: 8px 0 0;
