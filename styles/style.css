@@ -8,7 +8,7 @@
 
 }
 
-/*header section*/
+/*------------------Header section------------------*/
 
 .header {
   display: flex;
@@ -50,6 +50,11 @@
   font-weight: bold;
 }
 
+.nav__link:hover{
+  color: #1f69c9;
+}
+
+
 .header__title {
   /*max-width: 601px;*/
   max-width: 544px;
@@ -89,12 +94,16 @@
   text-decoration: none;
 }
 
+.header__link:hover{
+  color: #1f69c9;
+}
+
 .header__address {
   margin: 0;
   color: #838383;
 }
 
-/*upcoming events*/
+/*--------------Upcoming Events section-------------*/
 
 .events {
   padding: 100px 0 120px 80px;
@@ -164,6 +173,10 @@
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover{
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -238,7 +251,7 @@
   margin: 0;
 }
 
-/*staff picks section*/
+/*----------------Staff Picks section---------------*/
 
 .staff {
   padding: 100px 0 140px;
@@ -310,7 +323,7 @@
   line-height: 20px;
   color: #838383;
 }
-
+/*----------------Membership section----------------*/
 .membership {
   padding: 100px 0 140px;
   background-color: #f2f2f2;
@@ -333,7 +346,7 @@
   justify-content: center;
   gap: 40px;
 }
-/*steps to joining*/
+
 .step {
   flex-basis: 220px;
 }
@@ -355,7 +368,7 @@
   margin: 10px 0 0;
 }
 
-/*about library section*/
+/*---------------About library section--------------*/
 
 .about {
   padding: 100px 80px;
@@ -411,7 +424,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: #FFF;
   padding: 60px 102px 60px 80px;
 }
@@ -445,9 +458,6 @@
 .footer__list-item {
   margin: 0;
   margin-top: 16px;
-  display: flex;
-  align-content:center;
-  justify-content:space-between;
 }
 
 .footer__column-heading {
@@ -458,15 +468,18 @@
 
 .footer__column-link {
   color: white;
-  font-size: 16px;
-  line-height: 20px;
   text-decoration: none;
   margin: 0;
+}
+
+.footer__column-link:hover{
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  margin-right: 5px;
 }
 
 .footer__copyright {

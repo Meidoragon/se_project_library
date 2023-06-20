@@ -11,6 +11,7 @@
 
   <body>
     <div class="page">
+<!--Header section-->
       <header class="header">
         <nav class="nav">
           <img
@@ -18,22 +19,21 @@
             alt="Triple Peaks Library Logo"
             class="nav__logo"
           />
-          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a href="#events" class="nav__link">Events</a>
             </li>
             <li>
-              <a class="nav__link">Events</a>
+              <a href="#staff-picks" class="nav__link">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a href="#membership" class="nav__link">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a href="#about" class="nav__link">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a href="#contact" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -49,14 +49,15 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a href="#about" class="header__link">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
       </header>
+<!--Upcoming Events section-->
       <main class="content">
-        <section class="events">
+        <section  id="events" class="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -129,8 +130,8 @@
             </div>
           </div>
         </section>
-
-        <section class="staff">
+<!--Staff picks section-->
+        <section id="staff-picks" class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__cards">
@@ -201,8 +202,8 @@
             </li>
           </ul>
         </section>
-
-        <section class="membership">
+<!--Membership section-->
+        <section id="membership" class="membership">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -257,8 +258,8 @@
             </li>
           </ul>-
         </section>
-
-        <section class="about">
+<!--About Library section-->
+        <section id="about" class="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -282,7 +283,8 @@
           <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer">
+<!--Footer section-->
+      <footer id="contact" class="footer">
         <div class="footer__columns">
           <div class="footer__logo">
             <img
@@ -302,20 +304,22 @@
             <p class="footer__column-heading">Social Media</p>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <img
-                  src="../images/facebook_white.svg"
-                  alt="Facebook logo"
-                  class="footer__social-icon"
-                >
-                <p class="footer__column-link">Facebook</p>
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="../images/facebook_white.svg"
+                    alt="Facebook logo"
+                    class="footer__social-icon"
+                  >Facebook
+                </a>
               </li>
               <li class="footer__list-item">
-                <img
-                  src="../images/instagram_white.svg"
-                  alt="Instagram Logo"
-                  class="footer__social-icon"
-                >
-                <p class="footer__column-link">Instagram</p>
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="../images/instagram_white.svg"
+                    alt="Instagram Logo"
+                    class="footer__social-icon"
+                  >Instagram
+                </a>
               </li>
             </ul>
           </div>
@@ -324,5 +328,4 @@
       </footer>
     </div>
   </body>
-
 </html>
