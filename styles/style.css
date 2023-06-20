@@ -27,8 +27,8 @@
 }
 
 .nav__logo {
-  height: 80px;
-  width: 57px;
+  height: 60px;
+  width: 196px;
 }
 
 .nav__links {
@@ -49,8 +49,8 @@
 }
 
 .header__title {
-  max-width: 601px;
-  /*max-width: 544px; */
+  /*Max-width: 601px;*/
+  max-width: 544px;
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
@@ -191,7 +191,7 @@
 .person_name_burbidge {
   position: absolute;
   top: 96px;
-  right: 126px;
+  right: 125px;
 }
 
 .person_name_cannon {
