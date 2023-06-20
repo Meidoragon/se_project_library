@@ -8,8 +8,10 @@
 
 }
 
+/*header section*/
+
 .header {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   height: 100vh;
   min-height: 720px;
@@ -49,7 +51,7 @@
 }
 
 .header__title {
-  /*Max-width: 601px;*/
+  /*max-width: 601px;*/
   max-width: 544px;
   font-size: 66px;
   line-height: 76px;
@@ -91,6 +93,8 @@
   margin: 0;
   color: #838383;
 }
+
+/*upcoming events*/
 
 .events {
   padding: 100px 0 120px 80px;
@@ -234,6 +238,8 @@
   margin: 0;
 }
 
+/*staff picks section*/
+
 .staff {
   padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg)
@@ -257,7 +263,6 @@
   color: #fff
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff__cards{
   display: flex;
   max-width: 760px;
@@ -325,11 +330,12 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  justify-content: center;
+  gap: 40px;
 }
-
+/*steps to joining*/
 .step {
-  /* Add styles */
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -349,13 +355,19 @@
   margin: 10px 0 0;
 }
 
+/*about library section*/
+
 .about {
   padding: 100px 80px;
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
-  position: relative;
+  position:relative;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-content:baseline;
+  gap: 120px;
 }
 
 .about__title {
@@ -364,6 +376,7 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
+  max-width: 154px;
 }
 
 .about__content {
@@ -371,6 +384,7 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  z-index: 1;
 }
 
 .about__circle {
@@ -378,10 +392,26 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  position:absolute;
+  top: -121px;
+  left: -91px;
+  z-index: 0;
 }
+
+.about__paragraph{
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.about__paragraph:last-of-type{
+  margin-bottom: 0;
+}
+
+/*footer section*/
 
 .footer {
   box-sizing: border-box;
+  background-color: #000;
 }
 
 .footer__columns {
@@ -420,4 +450,5 @@
 }
 
 .footer__copyright {
+  color: #FFF;
 }
